@@ -10,7 +10,6 @@ def non_max_suppression_fast(boxes, overlapThresh):
             boxes = boxes.astype("float")
 
         pick = []
-
         x1 = boxes[:, 0]
         y1 = boxes[:, 1]
         x2 = boxes[:, 2]
